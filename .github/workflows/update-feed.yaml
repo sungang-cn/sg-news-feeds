@@ -8,7 +8,7 @@ on:
     # 表达式生成  https://crontab.guru/
     # 此处是UTC时间 即北京时间 -8小时
     # 每半小时执行一次
-    - cron: "0,30 0-23 * * *"
+    # - cron: "0,30 0-23 * * *"
 
 jobs:
   build:
